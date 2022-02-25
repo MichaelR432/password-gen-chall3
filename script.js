@@ -51,19 +51,10 @@ function generatePassword()  {
     passArray = passArray.concat(special);
   }
 
-  for (let i=0 < passLength; i++;){
+  for (let i=0; i < passLength; i++){
     randomPass += passArray[Math.floor(Math.random() * (passArray.length))];
   }
   return randomPass;
-
-}
-
-// Write password to the #password input
-function writePassword() {
-  let password = generatePassword();
-  let passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
 
 }
 
