@@ -49,3 +49,9 @@ Select
 A password will generate based on your selections!
 ![ScreenShot](/assets/images/password.png)
 
+
+## Link to page
+
+https://michaelr432.github.io/password-gen-chall3/
+
+
